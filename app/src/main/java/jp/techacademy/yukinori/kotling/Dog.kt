@@ -21,7 +21,7 @@ open class Dog: Animal, Movable {
      */
 
     // 引数付きコンストラクタ
-    constructor(name: String, hobby: String, age: Int): super(name, hobby, age){
+    constructor(name: String, age: Int): super(name, age){
     }
 
     // Animalクラスのメソッドをオーバーライド
