@@ -14,6 +14,10 @@ class MainActivity : AppCompatActivity() {
         human.say()
         human.think()
 
+        val human2 = Human("Shiota", 35, "犬との旅行")
+        human2.say()
+        human2.think()
+
         /*
         Log.d("kotlintest", "ログへの出力テスト")
 
